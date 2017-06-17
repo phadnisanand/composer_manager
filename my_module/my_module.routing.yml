@@ -1,0 +1,7 @@
+my_module.demo:
+  path: '/my_module/demo'
+  defaults:
+    _controller: '\Drupal\my_module\Controller\CustomController::demo'
+    _title: 'mymodule Example'
+  requirements:
+    _permission: 'access content'
